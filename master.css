@@ -139,19 +139,23 @@ nav {
   text-align: center;
   padding: 1.5rem 0;
 }
+#projects a h3:hover {
+  background: var(--peach);
+  color: var(--darkgray);
+}
 #projects img {
   display: block;
   width: 100%;
   height: auto;
 }
-#profile-link {
+#profile-link h4 {
   width: 15rem;
   display: block;
   margin: 0 auto;
   padding: 1.5rem;
   background: var(--darkblue);
 }
-#profile-link:hover {
+#profile-link h4:hover {
   color: var(--darkgray);
   background: var(--peach);
 }
